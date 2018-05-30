@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Денис Иванов](https://up.htmlacademy.ru/htmlcss/21/user/643683).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/nikita_rogatnev).
 
 ---
 
