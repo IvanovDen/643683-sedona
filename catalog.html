@@ -19,6 +19,37 @@
          </nav>
       </header>
       <main class="container">
+      	<section class="filter">
+      		<form action="#" method="get">
+      		  <div class="infrastructure">
+      			<span>Инфраструктура:</span>
+      			<input type="checkbox" name="swimming-pool" value="swimming-pool" id="pool-field">
+      			<label for="pool-field">Бассейн</label>
+      			<input type="checkbox" name="parking" value="parking" id="parking-field">
+      			<label for="parking-field">Парковка</label>
+      			<input type="checkbox" name="wifi" value="wifi" id="wifi-field">
+      			<label for="wifi-field">wi-fi</label>
+      		  </div>
+      		  <div class="housing">
+      			<span>Тип жилья:</span>
+      			<input type="checkbox" name="hotel" value="hotel" id="hotel-field">
+      			<label for="hotel-field">Гостиница</label>
+      			<input type="checkbox" name="motel" value="motel" id="motel-field">
+      			<label for="motel-field">Мотель</label>
+      			<input type="checkbox" name="apartments" value="apartments" id="apartments-field">
+      			<label for="apartments-field">Апартаменты</label>
+      		  </div>
+      		  <div class="price">
+      		  	<span>Стоймость в сутки (p):</span>
+      		  	<label>от</label>
+      		  	<input type="text" min="0" max="4000" value="0">
+      		  	<label>до</label>
+      		  	<input type="text" min="0" max="4000" value="3000">
+      		  	<input type="range" min="0" max="4000" step="100" value="3000">
+      		  	<input type="submit" value="Показать">
+      		  </div>
+      		</form>
+      	</section>
          <section class="sorting">
             <div class="found">
                <h1>Найдено</h1>
@@ -33,7 +64,7 @@
             </div>
             <ul class="found-list">
                <li><a href="#"></a></li>
-               <li><a href=""></a></li>
+               <li><a href="#"></a></li>
             </ul>
          </section>
          <section class="catalog">
@@ -42,30 +73,34 @@
                   <img src="img/hotel-1.jpg" width="135" height="90" alt="Amara Resort Spa">
                </div>
                <h1><a href="#">Amara Resort &amp; Spa</a></h1>
+               <div class="catalog">
                <div class="catalog-text">
                   <span>Гостиница</span>
-                  <span>от 3500 р.</span>
+                  <a href="#">Подробнее</a>
                </div>
                <div class="catalog-list">
-                  <a href="#">Подробнее</a>
                   <a href="#">Забронировать</a>
+                  <span>от 3500 р.</span>
+               </div>
                </div>
                <div class="rating">
                   <p>Рейтинг: 8,5</p>
-               </div>
+               </div> 
             </div>
             <div class="catalog-item">
               <div class="hotel-img">
                <img src="img/hotel-2.jpg" width="135" height="90" alt="Desert quail inn">
               </div>
                <h1><a href="#">Desert quail inn</a></h1>
+               <div class="catalog">
                <div class="catalog-text">
                   <span>Мотель</span>
-                  <span>от 3000 р.</span>
+                  <a href="#">Подробнее</a>
                </div>
                <div class="catalog-list">
-                  <a href="#">Подробнее</a>
                   <a href="#">Забронировать</a>
+                   <span>от 3000 р.</span>
+               </div>
                </div>
                <div class="rating">
                   <p>Рейтинг: 8,9</p>
@@ -76,13 +111,15 @@
                <img src="img/hotel-3.jpg" width="135" height="90" alt="Villas at poco diablo">
               </div>
                <h1><a href="#">Villas at poco diablo</a></h1>
+               <div class="catalog">
                <div class="catalog-text">
                   <span>Апартаменты</span>
-                  <span>от 2000 р.</span>
+                  <a href="#">Подробнее</a>
                </div>
                <div class="catalog-list">>
-                  <a href="#">Подробнее</a>
                   <a href="#">Забронировать</a>
+                  <span>от 2000 р.</span>
+               </div>
                </div>
                <div class="rating">
                   <p>Рейтинг: 9,2</p>
@@ -104,3 +141,6 @@
       </main>
    </body>
 </html>
+
+
+
