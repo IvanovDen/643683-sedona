@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 700px;	
+	color: #333333;
+	text-transform: uppercase;
+
+	background-color: #ffffff;
+
+}
+
+a {
+text-decoration: none;
+
+}
+
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
+	color:  #000000;
+	font-weight: bold;
+}
+
+.site-navigation {
+	list-style: none;
+}
+
+.site-navigation a {
+	color:#000000;
+}
+
+.welcome h1 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.welcome p {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.features {
+	text-align: center;
+}
+
+.features-item {
+	background-color: #eeeeee;
+}
+
+.features h2 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+div.features {
+	color: #ffffff;
+	background-color: #81b3d2;
+} 
+
+.advantages {
+	text-align: center;
+}
+
+.advantages-item {
+	background-color: #eeeeee;
+} 
+
+.advantages h2 {
+	font-size: 21px;
+	line-height: 21px;
+	font-weight: bold;
+}
+
+div.advantages {
+	color: #ffffff;
+	background-color: #81b3d2;
+} 
+
+.appoitment {
+	text-align: center;
+}
+
+
+.appoitment h3 {
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: bold; 
+} 
+
+.appoitment a {
+	color:#ffffff; 
+}
+.appoitment a:active {
+  background-color: #503e33;
+}
+.appoitment a:hover {
+  background-color:  #604e43;
+}
+.appoitment a {
+  background-color:  #766357;
+}
+
+.visit {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold; 
+} 
+.footer-social ul {
+	list-style: none;
+	
+}
+.footer-social   {
+	text-align: center;
+}
+
