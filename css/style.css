@@ -10,12 +10,10 @@ body {
 	text-transform: uppercase;
 
 	background-color: #ffffff;
-
 }
 
 a {
-text-decoration: none;
-
+	text-decoration: none;
 }
 
 .main-navigation {
@@ -82,40 +80,203 @@ div.advantages {
 	background-color: #81b3d2;
 } 
 
-.appoitment {
-	text-align: center;
+form a {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #766357;
+}
+form a:hover {
+	background-color: #604e43;
 }
 
-
-.appoitment h3 {
-	font-size: 30px;
-	line-height: 36px;
-	font-weight: bold; 
-} 
-
-.appoitment a {
-	color:#ffffff; 
-}
-.appoitment a:active {
-  background-color: #503e33;
-}
-.appoitment a:hover {
-  background-color:  #604e43;
-}
-.appoitment a {
-  background-color:  #766357;
+form a:active {
+	background-color: #604e43;
+	opacity: 0.3;
 }
 
-.visit {
+.hotel-search label {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.search-form {
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: bold;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.search-form:hover {
+	background-color: #ebebeb;
+	border: none;
+}
+
+.search-form:focus {
+	background-color: #ffffff;
+	outline:none;
+	border: 1px solid #e5e5e5;
+}
+
+.searh-button {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #81b3d2;
+	border: none;
+}
+.searh-button:hover {
+	background-color: #669ec0;
+}
+
+.searh-button:active {
+	background-color: #669ec0;
+	opacity: 0.3;
+}
+
+.visit a {
 	font-size: 21px;
 	line-height: 26px;
 	font-weight: bold; 
+	color: #000000;
 } 
-.footer-social ul {
+
+.footer-social li {
 	list-style: none;
-	
+	text-decoration: none;	
 }
-.footer-social   {
+
+.footer-social  {
 	text-align: center;
 }
+
+.info a:hover {
+	color: #81b3d2;
+}
+
+.info a:active {
+	color: #000000;
+	opacity: 0.3;
+}
+
+form span {
+	font-size: 16px;
+	line-height: 21px;
+	color:#ffffff;
+	font-weight: bold;
+}
+
+.found h1 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+li {
+	list-style-type:none;
+}	
+.found-list span {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.price-choice {
+	font-size: 12px;
+	line-height: 18px;
+	color: #81b3d2;
+	text-decoration: none;
+}
+
+.choice {
+	font-size: 12px;
+	line-height: 18px;
+	opacity: 0.3 ;
+	border-bottom: 1px dashed #81b3d2;
+	color: #000000;
+}
+
+.choice:hover {
+	color: #81b3d2;
+	border-bottom: 1px dashed #81b3d2;
+	opacity: 1 ;
+}
+
+.choice:active {
+	color: #000000;
+	border-bottom: none;
+	opacity: 1 ;
+}
+
+.catalog-item a {
+	color: #000000;
+}
+
+.catalog-item h1 {
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.catalog-item h1 a:hover {
+	color: #81b3d2;
+}
+
+.catalog-item h1 a:active {
+	color: #000000;
+	opacity: 0.3 ; 
+}
+
+.catalog-text span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.catalog-text a {
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	background-color: #81b3d2;
+}
+
+.catalog-text a:hover {
+	background-color:#669ec0; 
+}
+
+.catalog-text a:active {
+	opacity: 0.3;
+}
+
+.catalog-list span {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.catalog-list a {
+	font-size: 14px;
+	line-height: 21px;
+	color: #ffffff;
+	background-color: #766357;
+}
+
+.catalog-list a:hover {
+	background-color:#604e43;
+}
+
+.catalog-list a:active {
+	opacity: 0.3;
+}
+
+.rating p {
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666; 
+	background-color: #f2f2f2;
+}
+
+
+
 

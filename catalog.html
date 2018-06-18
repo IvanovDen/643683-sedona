@@ -3,6 +3,8 @@
    <head>
       <meta charset="utf-8">
       <title>HTML Academy: Седона</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
    </head>
    <body> 
       <header class="main-header">
@@ -11,7 +13,7 @@
                <a href="index.html"><img src="img/logo.png" width="138" height="70" alt="Логотип"></a>
             </div>
             <ul class="site-navigation">
-               <li><a href="#">Информация</a></li>
+               <li class="info"><a href="#">Информация</a></li>
                <li><a href="#">Фото и видео</a></li>
                <li><a href="#">Карта штата</a></li>
                <li class="site-navigation-current"><a>Гостиница</a></li>
@@ -23,7 +25,7 @@
       		<form action="#" method="get">
       		  <div class="infrastructure">
       			<span>Инфраструктура:</span>
-      			<input type="checkbox" name="swimming-pool" value="swimming-pool" id="pool-field">
+      			<input type="checkbox" name="swimming-pool" value="swimming-pool" id="pool-field" checked>
       			<label for="pool-field">Бассейн</label>
       			<input type="checkbox" name="parking" value="parking" id="parking-field">
       			<label for="parking-field">Парковка</label>
@@ -32,11 +34,11 @@
       		  </div>
       		  <div class="housing">
       			<span>Тип жилья:</span>
-      			<input type="checkbox" name="hotel" value="hotel" id="hotel-field">
+      			<input type="checkbox" name="hotel" value="hotel" id="hotel-field" checked>
       			<label for="hotel-field">Гостиница</label>
-      			<input type="checkbox" name="motel" value="motel" id="motel-field">
+      			<input type="checkbox" name="motel" value="motel" id="motel-field" checked>
       			<label for="motel-field">Мотель</label>
-      			<input type="checkbox" name="apartments" value="apartments" id="apartments-field">
+      			<input type="checkbox" name="apartments" value="apartments" id="apartments-field" checked>
       			<label for="apartments-field">Апартаменты</label>
       		  </div>
       		  <div class="price">
@@ -46,7 +48,7 @@
       		  	<label>до</label>
       		  	<input type="text" min="0" max="4000" value="3000">
       		  	<input type="range" min="0" max="4000" step="100" value="3000">
-      		  	<input type="submit" value="Показать">
+      		  	<input class="show-button" type="submit" value="Показать">
       		  </div>
       		</form>
       	</section>
@@ -55,11 +57,11 @@
                <h1>Найдено</h1>
             </div>
             <div class="found-list">
-               <span>Сортировка</span>
+               <span>Сортировка:</span>
                <ul class="found-list">
-                  <li><a href="#">По цене</a></li>
-                  <li><a href="#">По типу</a></li>
-                  <li><a href="#">По рейтингу</a></li>
+                  <li><a class="price-choice" href="#">По цене</a></li>
+                  <li><a class="choice" href="#">По типу</a></li>
+                  <li><a class="choice" href="#">По рейтингу</a></li>
                </ul>
             </div>
             <ul class="found-list">
@@ -116,7 +118,7 @@
                   <span>Апартаменты</span>
                   <a href="#">Подробнее</a>
                </div>
-               <div class="catalog-list">>
+               <div class="catalog-list">
                   <a href="#">Забронировать</a>
                   <span>от 2000 р.</span>
                </div>
